@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "charterlock"
+version = "0.1.0"
+description = "Admission gate: a journey is not an exam if the examinee wrote it."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Nelson", email = "taipei49314@users.noreply.github.com" }]
+keywords = ["evidence", "deterministic", "local-first", "charter", "admission"]
+
+[project.scripts]
+charterlock = "charterlock.cli:main"
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools.packages.find]
+include = ["charterlock*"]

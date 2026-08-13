@@ -1,0 +1,28 @@
+{
+  "author": {
+    "key_id": "nelson",
+    "signature": "not-a-mac"
+  },
+  "binds": {
+    "claim_hash": null,
+    "journey_hash": "5a1a509316e59122adc0f3e2f65107ee079a8c8bad6ec1e87d30374bed7496b4"
+  },
+  "charter_version": 1,
+  "expiry": null,
+  "frozen_at": "2026-08-14T10:00:00+00:00",
+  "id": "chr_actor",
+  "intent": {
+    "must": [
+      {
+        "id": "invoice-total-exact",
+        "type": "assertion"
+      },
+      {
+        "id": "invoice-currency-twd",
+        "type": "assertion"
+      }
+    ],
+    "must_not": [],
+    "non_goals": []
+  }
+}

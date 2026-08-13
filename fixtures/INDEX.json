@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "expected": "CHARTER_COLLAPSED",
+      "name": "naive_self"
+    },
+    {
+      "expected": "INCOMPLETE",
+      "name": "missing_charter"
+    },
+    {
+      "expected": "CHARTER_COLLAPSED",
+      "name": "charter_after_work"
+    },
+    {
+      "expected": "CHARTER_SPLIT",
+      "name": "key_split_frozen"
+    },
+    {
+      "expected": "INCOMPLETE",
+      "name": "unbound_journey"
+    },
+    {
+      "expected": "CHARTER_NARROWED",
+      "name": "narrowed"
+    },
+    {
+      "expected": "UNKNOWN",
+      "name": "actor_string"
+    },
+    {
+      "expected": "CHARTER_SPLIT",
+      "name": "claim_bound"
+    }
+  ]
+}

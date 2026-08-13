@@ -1,0 +1,8 @@
+{
+  "must": [
+    {
+      "id": "invoice-total-exact",
+      "type": "assertion"
+    }
+  ]
+}

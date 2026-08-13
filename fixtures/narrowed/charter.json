@@ -1,0 +1,28 @@
+{
+  "author": {
+    "key_id": "hmac-sha256:e0e77a507412b120f6ede61f62295b1a7b2ff19d3dcc8f7253e51663470c888e",
+    "signature": "0f39147f8097219aa3e7c8c506bcde3875dfdc8b749e94bb680e75871c0b18f0"
+  },
+  "binds": {
+    "claim_hash": null,
+    "journey_hash": "b24d60cdb7990d9bb905eeb245f0f72999d5ea4b049761284a9ab261706a42c2"
+  },
+  "charter_version": 1,
+  "expiry": null,
+  "frozen_at": "2026-08-14T10:00:00+00:00",
+  "id": "chr_narrowed",
+  "intent": {
+    "must": [
+      {
+        "id": "invoice-total-exact",
+        "type": "assertion"
+      },
+      {
+        "id": "invoice-currency-twd",
+        "type": "assertion"
+      }
+    ],
+    "must_not": [],
+    "non_goals": []
+  }
+}
